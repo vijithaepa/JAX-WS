@@ -1,0 +1,6 @@
+Generate the stub:
+wsgen -cp bin -d bin com.theopentutorials.ws.calc.Calculator
+
+Generate the src from STUB:
+wsgen -s src -cp bin -d bin com.theopentutorials.ws.calc.Calculator
+
